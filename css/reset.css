@@ -1,0 +1,103 @@
+/*Reset Css*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	}
+/*Common Styles*/
+body {
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", "sans-serif";
+}
+a {
+  text-decoration: none;
+  letter-spacing: .05em;
+  margin-right: 1em;
+  color: #6899FF;
+}
+.introduction > p,
+.location > p,
+.content-footer > p{
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+h1{
+  font-size: 24px;
+}
+/*Header Styles*/
+.masthead-intro {
+  text-align: center;
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", "Georgia", "serif";
+  font-size: 2em;
+  
+}
+.masthead-heading {
+  text-align: center;
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", "sans-serif";
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+.masthead {
+  padding: 6em 0;
+  background-image: url("https://images.unsplash.com/45/Ss2c5MVASdGkVHOwG6n9_Imogene%20Pass.jpg?q=80&fm=jpg&s=1ea176817d6cdd7ea76d572a00cd1133");
+  background-size: cover;
+  
+}
+/*Content Styles*/
+.introduction-section, .location-section, .question-section {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  border-top: 2px dotted #6899FF;
+}
+.question-section > h2 {
+  font-family: "Gentium Bok Basic", "Georgia", "serif";
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.question-section > p {
+  padding: .30em;
+}
+/*Footer Styles*/
+.content-footer {
+  text-align: center;
+  background-color: #292929;
+  padding: .70em;
+}
+.social > li {
+  display: inline-block;
+}
+.content-footer{
+  color: white;
+}
+/*Responsive Styles*/
+@media only screen and (max-width: 500px) {
+  .content-footer{
+    font-size: 2em;
+  }
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size: 3em;
+  }
+} 
